@@ -137,6 +137,10 @@ function App() {
             bottom: 20,
             left: "auto",
             position: "fixed",
+            "&:hover": {
+              transition: "0.9s",
+              transform: "rotate(90deg)",
+            },
           }}
           onClick={handleClick}
           size="small"
