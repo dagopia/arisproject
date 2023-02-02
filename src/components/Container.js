@@ -9,9 +9,9 @@ const Container = (props) => {
       <Box
         sx={{
           [theme.breakpoints.not("xs")]: {
-            ml: "295px",
+            ml: "300px",
             mr: 1,
-            mt: 4,
+            mt: 5,
           },
           m: 2,
           ml: 2,

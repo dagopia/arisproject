@@ -34,3 +34,6 @@ export const hoverColor =
 
 export const cardGradient =
   "linear-gradient(90deg, rgba(60,19,139,0.8329466357308585) 5%, rgba(65,16,143,0.8793503480278422) 100%)";
+
+// Amhara Region Color
+export const BlueActive = "#00ABB6";
