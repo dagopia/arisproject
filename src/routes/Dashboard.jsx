@@ -23,7 +23,7 @@ const PageContent = () => {
               <Groups
                 sx={{
                   width: "80px",
-                  fontSize: "75px",
+                  fontSize: "50px",
                   pr: 3,
                   color: BlueActive,
                 }}
@@ -33,7 +33,7 @@ const PageContent = () => {
             value={"4,451,525"}
             footerText={`400 ${t("today")}`}
             startIcon={<Add />}
-            fontSize={"h5"}
+            fontSize={"h6"}
           />
         </Grid>
         <Grid xs={12} md={6} lg={3} sm={12}>
@@ -42,7 +42,7 @@ const PageContent = () => {
               <HouseRounded
                 sx={{
                   width: "80px",
-                  fontSize: "75px",
+                  fontSize: "50px",
                   pr: 3,
                   color: BlueActive,
                 }}
@@ -52,7 +52,7 @@ const PageContent = () => {
             value={"4,451,525"}
             footerText={`400 ${t("today")}`}
             startIcon={<Add />}
-            fontSize={"h5"}
+            fontSize={"h6"}
           />
         </Grid>
         <Grid xs={12} md={6} lg={3} sm={12}>
@@ -61,7 +61,7 @@ const PageContent = () => {
               <Hail
                 sx={{
                   width: "80px",
-                  fontSize: "75px",
+                  fontSize: "50px",
                   pr: 3,
                   color: BlueActive,
                 }}
@@ -71,7 +71,7 @@ const PageContent = () => {
             value={"4,448"}
             footerText={`400 ${t("today")}`}
             startIcon={<Add />}
-            fontSize={"h5"}
+            fontSize={"h6"}
           />
         </Grid>
         <Grid xs={12} md={6} lg={3} sm={12}>
@@ -80,7 +80,7 @@ const PageContent = () => {
               <PersonAdd
                 sx={{
                   width: "80px",
-                  fontSize: "75px",
+                  fontSize: "50px",
                   pr: 3,
                   color: BlueActive,
                 }}
@@ -89,7 +89,7 @@ const PageContent = () => {
             title={t("total_today_reg")}
             value={"4,451,525"}
             startIcon={<Add />}
-            fontSize={"h5"}
+            fontSize={"h6"}
           />
         </Grid>
       </Grid>

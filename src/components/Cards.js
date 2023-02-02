@@ -14,13 +14,11 @@ import crtn from "../assets/crtn.png";
 
 const DashCard = (props) => {
   return (
-    <Card
-      sx={{ m: 1, borderRadius: "20px", border: `1px solid ${BlueActive}` }}
-    >
+    <Card sx={{ m: 1, borderRadius: "10px" }}>
       <CardContent sx={{ display: "flex", alignItems: "center" }}>
         <Box>{props.icon}</Box>
         <Box>
-          <Typography color="gray" variant="h6">
+          <Typography color="gray" variant="subtitle1">
             {props.title}
           </Typography>
           <Typography variant={props.fontSize} fontWeight={"bold"}>
@@ -28,7 +26,7 @@ const DashCard = (props) => {
           </Typography>
         </Box>
       </CardContent>
-      <Divider sx={{ borderColor: BlueActive }} />
+      {props.footerText ? <Divider /> : null}
       {props.footerText ? (
         <CardActions
           sx={{
