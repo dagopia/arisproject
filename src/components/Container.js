@@ -14,7 +14,7 @@ const Container = (props) => {
             mt: 5,
           },
           m: 2,
-          ml: 2,
+          mx: 2,
         }}
       >
         <Box sx={{ display: { sm: "none" } }}>

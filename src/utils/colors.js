@@ -1,6 +1,6 @@
 // Theme colors
-export const primaryMain = "#320a02"; //0A2647
-export const secondaryMain = "#1D2426";
+export const primaryMain = "#00ABB6"; //320a02
+export const secondaryMain = "#00ABB6";
 export const drawerFooterColor = "#015478";
 
 // Drawer color style

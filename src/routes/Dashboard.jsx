@@ -16,7 +16,7 @@ const PageContent = () => {
   const { t } = useTranslation();
   return (
     <Box sx={{ mt: 2 }}>
-      <Grid container spacing={2}>
+      <Grid container spacing={0.5}>
         <Grid xs={12} md={6} lg={3} sm={12}>
           <DashCard
             icon={
