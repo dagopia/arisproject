@@ -1,4 +1,4 @@
-import { ArrowRightAlt, Settings, Update } from "@mui/icons-material";
+import { Settings, Update } from "@mui/icons-material";
 import {
   Box,
   Button,
