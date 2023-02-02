@@ -73,10 +73,15 @@
   "registration": "Registration",
   "house_owners": "House Owners",
   "payments": "Payments",
-  "Approval":"Approval",
-  "Residents":"Residents",
-  "issues":"Issues",
-  "leave_req":"Leave Request",
-  "id_amdnt":"ID Amendment",
-  "vital_events":"Vital Events"
+  "Approval": "Approval",
+  "Residents": "Residents",
+  "issues": "Issues",
+  "leave_req": "Leave Request",
+  "id_amdnt": "ID Amendment",
+  "vital_events": "ወሳኝ ኩነቶች",
+  "total_residents": "Total Residents",
+  "total_house_owners": "Total House Owners",
+  "new_comers_reg": "Registered Newly Comers",
+  "total_today_reg": "Total Today's Registration",
+  "today": "Today"
 }

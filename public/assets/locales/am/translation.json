@@ -78,5 +78,10 @@
   "issues": "ጉዳዬች",
   "leave_req": "መልቀቅያ መጠየቅያ",
   "id_amdnt": "መታወቅያ ዕድሳት",
-  "vital_events": "ወሳኝ ኩነቶች"
+  "vital_events": "ወሳኝ ኩነቶች",
+  "total_residents": "ጠቅላላ ነዋሪዎች",
+  "total_house_owners": "ጠቅላላ የቤት ባለቤቶች",
+  "new_comers_reg": "አዲስ የመጡ የተመዘገቡ ነዋሪዎች",
+  "total_today_reg": "አጠቃላይ ዛሬ የተመዘገቡ ነዋሪዎች",
+  "today": "ዛሬ"
 }
