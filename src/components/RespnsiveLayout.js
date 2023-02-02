@@ -270,10 +270,14 @@ const ResponsiveDrawer = (props) => {
         transformOrigin={{ horizontal: "right", vertical: "top" }}
         anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
       >
-        <MenuItem>
-          <Avatar /> Mr. Bereket Zergaw
-        </MenuItem>
-
+        <Box>
+          <MenuItem>
+            <Avatar /> Mr. Bereket Zergaw
+          </MenuItem>
+          <Typography sx={{ textAlign: "right", pr: 2 }} color="gray">
+            Super Admin
+          </Typography>
+        </Box>
         <Divider />
         <MenuItem>
           <ListItemIcon>
