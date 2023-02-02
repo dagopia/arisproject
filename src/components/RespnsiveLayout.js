@@ -19,11 +19,11 @@ import {
   Dashboard,
   DirectionsWalk,
   Event,
+  Fingerprint,
   HistoryToggleOff,
   Houseboat,
   Logout,
   PaymentRounded,
-  Person,
   RecentActors,
   RestorePage,
   Settings,
@@ -174,52 +174,52 @@ const ResponsiveDrawer = (props) => {
             label={t("dashboard")}
           />
           <Link
-            to="/"
-            icon={<Person color="inherit" />}
+            to="/registration"
+            icon={<Fingerprint color="inherit" />}
             label={t("registration")}
           />
           <Link
-            to="/"
+            to="/house-owners"
             icon={<Houseboat color="inherit" />}
             label={t("house_owners")}
           />
           <Link
-            to="/"
+            to="/payments"
             icon={<PaymentRounded color="inherit" />}
             label={t("payments")}
           />
           <Link
-            to="/"
+            to="/approvals"
             icon={<AdminPanelSettings color="inherit" />}
             label={t("Approval")}
           />
           <Link
-            to="/"
+            to="/residents"
             icon={<RecentActors color="inherit" />}
             label={t("Residents")}
           />
           <Link
-            to="/"
+            to="/issues"
             icon={<BugReport color="inherit" />}
             label={t("issues")}
           />
           <Link
-            to="/"
+            to="/leave-request"
             icon={<DirectionsWalk color="inherit" />}
             label={t("leave_req")}
           />
           <Link
-            to="/"
+            to="/id-amendment"
             icon={<RestorePage color="inherit" />}
             label={t("id_amdnt")}
           />
           <Link
-            to="/"
+            to="/vital-events"
             icon={<Event color="inherit" />}
             label={t("vital_events")}
           />
           <Link
-            to="/"
+            to="/reports"
             icon={<Assessment color="inherit" />}
             label={t("report")}
           />
