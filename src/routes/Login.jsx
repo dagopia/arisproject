@@ -32,9 +32,7 @@ const Login = () => {
       >
         <LoginComponent />
       </Box>
-      <Box sx={{ background: gradient1, display: { sm: "none" }, p: "2%" }}>
-        <LoginComponent />
-      </Box>
+
       <Box
         sx={{
           height: "100%",
@@ -85,6 +83,9 @@ const Login = () => {
         >
           {t("login")}
         </Button>
+      </Box>
+      <Box sx={{ background: gradient1, display: { sm: "none" }, p: "2%" }}>
+        <LoginComponent />
       </Box>
     </Box>
   );
