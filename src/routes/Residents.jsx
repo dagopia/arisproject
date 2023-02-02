@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 const PageContent = (props) => {
   return (
     <Box>
-      <h1>{props.pageName} accepted</h1>
+      <h1>{props.pageName}</h1>
     </Box>
   );
 };
