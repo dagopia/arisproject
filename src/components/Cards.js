@@ -9,31 +9,43 @@ import {
   IconButton,
   Typography,
 } from "@mui/material";
-import { cardGradient } from "../utils/colors";
+import { BlueActive, cardGradient } from "../utils/colors";
 import crtn from "../assets/crtn.png";
 
 const DashCard = (props) => {
   return (
-    <Card sx={{ m: 1, borderRadius: "20px" }}>
+    <Card
+      sx={{ m: 1, borderRadius: "20px", border: `1px solid ${BlueActive}` }}
+    >
       <CardContent sx={{ display: "flex", alignItems: "center" }}>
         <Box>{props.icon}</Box>
         <Box>
-          <Typography color="gray">{props.title}</Typography>
-          <Typography variant="h3" fontWeight={"bold"}>
+          <Typography color="gray" variant="h6">
+            {props.title}
+          </Typography>
+          <Typography variant={props.fontSize} fontWeight={"bold"}>
             {props.value}
           </Typography>
         </Box>
       </CardContent>
-      <Divider />
-      <CardActions>
-        <Button
-          size="small"
-          endIcon={<ArrowRightAlt />}
-          sx={{ textTransform: "none" }}
+      <Divider sx={{ borderColor: BlueActive }} />
+      {props.footerText ? (
+        <CardActions
+          sx={{
+            display: "flex",
+            justifyContent: "right",
+          }}
         >
-          See All Tasks
-        </Button>
-      </CardActions>
+          <Button
+            size="small"
+            startIcon={props.startIcon}
+            endIcon={props.endIcon}
+            sx={{ textTransform: "none", color: BlueActive }}
+          >
+            {props.footerText}
+          </Button>
+        </CardActions>
+      ) : null}
     </Card>
   );
 };
