@@ -8,6 +8,16 @@ import { DarkMode, Language, LightMode, Settings } from "@mui/icons-material";
 import { useEffect, useState } from "react";
 import i18next from "i18next";
 import { Dashboard } from "./routes/Dashboard";
+import { Approval } from "./routes/Approval";
+import { HouseOwners } from "./routes/HouseOwners";
+import { IDAmendment } from "./routes/IdAmend";
+import { Issues } from "./routes/Issues";
+import { LeaveReq } from "./routes/LeaveReq";
+import { Payment } from "./routes/Payment";
+import { Registration } from "./routes/Registration";
+import { Report } from "./routes/Report";
+import { Residents } from "./routes/Residents";
+import { VitalEvent } from "./routes/VitalEvent";
 
 function App() {
   const [dmode, setDmode] = useState(localStorage.getItem("mode") || "light");
@@ -106,6 +116,16 @@ function App() {
           <Routes>
             <Route path="/" element={<Login />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/approvals" element={<Approval />} />
+            <Route path="/house-owners" element={<HouseOwners />} />
+            <Route path="/id-amendment" element={<IDAmendment />} />
+            <Route path="/issues" element={<Issues />} />
+            <Route path="/leave-request" element={<LeaveReq />} />
+            <Route path="/payments" element={<Payment />} />
+            <Route path="/registration" element={<Registration />} />
+            <Route path="/reports" element={<Report />} />
+            <Route path="/residents" element={<Residents />} />
+            <Route path="/vital-events" element={<VitalEvent />} />
           </Routes>
         </Router>
 
